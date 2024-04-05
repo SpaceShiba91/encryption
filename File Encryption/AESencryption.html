@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+    <header>
+        <h1 id="heading">File Encryption Challenge</h1>
+    </header>
+    <input id="input" placeholder="Upload file" type="file">
+    <input id="key" placeholder="Input key">
+    <select id="cryptBool">
+        <option>encrypt</option>
+        <option>decrypt</option>
+    </select>
+    <button id="button">Perform Task</button>
+    <p id="text"></p>
+
+    <script src="./node_modules/crypto-js/crypto-js.js"></script>
+    <script src="script.js"></script>
+    <textarea id="out"></textarea>
+</body>
+</html>
